@@ -17,7 +17,13 @@ public class MainActivity extends AppCompatActivity {
                 .getCountries();
 
         for (Country country : countryList) {
-            Log.i(getLocalClassName(), "Name = " + country.getName());
+            Log.i(getLocalClassName(), "getName = " + country.getName());
+            Log.i(getLocalClassName(), "getCode = " + country.getCode());
+            Log.i(getLocalClassName(), "getCurrency = " + country.getCurrency());
+            Log.i(getLocalClassName(), "getDialCode = " + country.getDialCode());
+            Log.i(getLocalClassName(), "getFlag = " + country.getFlag());
+            Log.i(getLocalClassName(), "getName = " + country.getName());
+
         }
     }
 }
